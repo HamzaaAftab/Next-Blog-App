@@ -1,11 +1,11 @@
-'use client'
+'use client';
 import BlogTableItem from '@/Components/AdminComponents/BlogTableItem'
 import axios from 'axios'
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { toast } from 'react-toastify'
 
-const page = () => {
+const Page = () => {
   
   const [blogs, setBlogs] = useState([]);
 
@@ -71,4 +71,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

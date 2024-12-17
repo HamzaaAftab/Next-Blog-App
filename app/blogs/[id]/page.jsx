@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { assets, blog_data } from '@/Assets/assets'
 import Footer from '@/Components/Footer'
@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
-const page = ({params}) => {
+const Page = ({params}) => {
   
   const [data, setdata] = useState(null)
 
@@ -70,4 +70,4 @@ const page = ({params}) => {
   )
 }
 
-export default page
+export default Page
