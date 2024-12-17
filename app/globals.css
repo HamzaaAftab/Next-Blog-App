@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -24,4 +24,50 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+.scrollbar-hide::-webkit-scrollbar{
+  display: none;
 }
+
+
+.scrollbar-hide{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.blog-content{
+  padding: 36px 0;
+}
+
+.blog-content b{
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.blog-content p{
+  margin-bottom: 10px;
+}
+
+.blog-content h1{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 27px;
+  color: brown;
+}
+
+
+.blog-content h2{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 22px;
+  color: brown;
+}
+
+.blog-content h3{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 19px;
+  color: brown;
+}
+
